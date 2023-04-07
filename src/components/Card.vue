@@ -1,7 +1,9 @@
 <template>
+<div>
   <h1>{{ msg }}</h1>
   <button @click="count++">count is: {{ count }}</button>
   <p>Edit <code>components/Card.vue</code> to test hot module replacement.</p>
+</div>
 </template>
 
 <script>
@@ -12,8 +14,8 @@ export default {
   },
   data() {
     return {
-      count: 0
+      // count: 0Ï
     }
   }
 }
-</script>
+</script>Ï
