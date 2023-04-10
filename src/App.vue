@@ -1,18 +1,15 @@
 <template>
-  <router-view />
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <Card msg="Hello Vue 3.0 + Vite" />
 </template>
 
 <script>
-import Home from "./views/Home.vue";
-import "normalize.css"; //reset css
+import Card from './components/Card.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    Home
+    Card
   }
-};
+}
 </script>
-
-<style scoped lang="scss">
-</style>
